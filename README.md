@@ -18,7 +18,7 @@
     MQMerlin is a user-friendly tool aimed at simplifying the monitoring and troubleshooting of IBM MQ systems.
     <br />
     <br />
-    <a href="https://github.com/MQMerlin/MQMerlin/issues">Bug Report</a>
+    <a href="https://www.youtube.com/watch?v=ttXFpTWPafs">Demo Video</a>
     ·
   
   </p>
