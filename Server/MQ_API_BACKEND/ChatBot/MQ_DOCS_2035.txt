@@ -1,0 +1,42 @@
+2035 (07F3) (RC2035): MQRC_NOT_AUTHORIZED
+Last Updated: 2023-05-31
+General explanation
+Explanation
+The user of the application or channel that produced the issue, is not authorized to perform the operation attempted:
+		On an MQCONN or MQCONNX call, the user is not authorized to connect to the queue manager. This can be for one of the following reasons:
+		For locally bound applications, the application user ID has not been granted authority to connect to the queue manager.
+		An invalid user ID or password was specified in the MQCSP structure on an MQCONNX call.
+		The queue manager is configured to require applications to provide a user ID and password in an MQCSP structure when connecting, but the application did not provide a user ID and password.
+		On z/OS®, for CICS® applications, MQRC_CONNECTION_NOT_AUTHORIZED is issued instead.
+		On an MQCONNX call, the length of the user ID or password is greater than the maximum length permitted. The maximum length of the user ID is dependent on the platform. For more information, see User IDs.
+		On an MQOPEN or MQPUT1 call, the user is not authorized to open the object for the option(s) specified.
+		On z/OS, if the object being opened is a model queue, this reason also arises if the user is not authorized to create a dynamic queue with the required name.
+		On an MQCLOSE call, the user is not authorized to delete the object, which is a permanent dynamic queue, and the Hobj parameter specified on the MQCLOSE call is not the handle returned by the MQOPEN call that created the queue.
+		On a command, the user is not authorized to issue the command, or to access the object it specifies.
+		On an MQSUB call, the user is not authorized to subscribe to the topic.
+		On an MQSUB call, using non-managed destination queues, the user is not authorized to use the destination queue.
+		The presence of an Advanced Message Security security policy.
+This reason code can also occur in the Feedback field in the message descriptor of a report message; in this case it indicates that the issue was encountered by a message channel agent when it attempted to put the message on a remote queue.
+Completion code
+MQCC_FAILED
+Programmer response
+Ensure that the correct queue manager or object was specified, and that appropriate authority exists.
+This reason code is also used to identify the corresponding event message,
+		MQCONN or MQCONNX Not Authorized (type 1).
+		MQOPEN or MQPUT1 Not Authorized (type 2).
+		MQCLOSE Not Authorized (type 3).
+		Command Not Authorized (type 4).
+		MQSUB Not Authorized (type 5).
+		MQSUB destination Not Authorized (type 6).
+Specific problems generating RC2035
+JMSWMQ2013 invalid security authentication
+See Invalid security authentication for information when your IBM® MQ JMS application fails with security authentication issues.
+MQRC_NOT_AUTHORIZED on a queue or channel
+See MQRC_NOT_AUTHORIZED in WMQ for information when MQRC 2035 (MQRC_NOT_AUTHORIZED) is returned where a user is not authorized to perform the function. Determine which object the user cannot access and provide the user access to the object.
+MQRC_NOT_AUTHORIZED (AMQ4036 on a client) as an administrator
+See MQRC_NOT_AUTHORIZED as an administrator for information when MQRC 2035 (MQRC_NOT_AUTHORIZED) is returned where you try to use a user ID that is an IBM MQ Administrator, to remotely access the queue manager through a client connection.
+MQS_REPORT_NOAUTH
+See MQS_REPORT_NOAUTH for information on using this environment variable to better diagnose return code 2035 (MQRC_NOT_AUTHORIZED). The use of this environment variable generates issues in the queue manager issue log, but does not generate a Failure Data Capture (FDC).
+MQSAUTHERRORS
+See MQSAUTHERRORS for information on using this environment variable to generate FDC files related to return code 2035 (MQRC_NOT_AUTHORIZED). The use of this environment variable generates an FDC, but does not generate issues in the queue manager issue log.
+
