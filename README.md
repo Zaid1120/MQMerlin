@@ -127,7 +127,7 @@ We express our deepest gratitude towards our supervisors: John McNamara, Yuzi Na
 <!-- LICENSE -->
 ## License
 
-Distributed under the Standard GitHub License. See `LICENSE` for more information.
+Distributed under the Apache 2.0 License. See `LICENSE` for more information.
 
 
 
