@@ -15,7 +15,7 @@
   <h3 align="center">MQMerlin</h3>
 
   <p align="center">
-    MQMerlin is a user-friendly tool aimed at simplifying the understanding and monitoring of MQ systems.
+    MQMerlin is a user-friendly tool aimed at simplifying the monitoring and troubleshooting of IBM MQ systems.
     <br />
     <br />
     <a href="https://github.com/MQMerlin/MQMerlin/issues">Bug Report</a>
@@ -114,18 +114,14 @@ Contribute to MQMerlin by following the setup instructions under "Getting Starte
 - [Fergus Cassidy](https://github.com/Fergus2299)
 - [Hugo Giddins](https://github.com/Hgiddins)
 
-We express our deepest gratitude towards the IBM supervisors: John McNamara, Yuzi Nakamura, and Richard Coppen for their invaluable guidance and support throughout this project. Further acknowledgements and appreciations are extended to the entire MQMerlin community for their collaborative efforts.
-
-MQMerlin project link: [https://github.com/MQMerlin/](https://github.com/MQMerlin/)
+We express our deepest gratitude towards our supervisors: John McNamara, Yuzi Nakamura, Warren Mante, and Richard Coppen for their invaluable guidance and support throughout this project. Further acknowledgements and appreciations are extended to the entire MQMerlin community for their collaborative efforts.
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-- IBM Supervisors: John McNamara, Yuzi Nakamura, and Richard Coppen.
-- The MQMerlin community for their contributions and support.
-
+- Supervisors: John McNamara, Yuzi Nakamura, Warren Mante and Richard Coppen.
 
 
 <!-- LICENSE -->
