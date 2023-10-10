@@ -1,0 +1,23 @@
+* Enable performance (queue service interval) and QMGR (2035 and 2085 errors) events
+ALTER QMGR PERFMEV(ENABLED)
+ALTER QMGR AUTHOREV(ENABLED)
+ALTER QMGR LOCALEV (ENABLED)
+* service interval of 10 seconds means that the receiver app must get within this time of a put
+* to avoid a service interval high event.
+  ALTER QMGR PERFMEV(ENABLED)
+  ALTER QLOCAL('DEV.QUEUE.1') QSVCINT(10) QSVCIEV(HIGH)
+
+* Queue manager produces MQI statistics messages
+ALTER QMGR STATMQI(ON)
+
+* configuring DEV.QUEUE.1 to produce Queue statistics messages
+ALTER QLOCAL(DEV.QUEUE.1) STATQ(ON)
+
+* statistics messages sent to Java every 60 seconds
+ALTER QMGR STATINT(60)
+
+* Enable accounting
+ALTER QMGR ACCTMQI(ON)
+
+* set the heartbeat interval of 20 seconds to make the MQ instance more responsive to apps disconnecting
+ALTER CHL(DEV.ADMIN.SVRCONN) CHLTYPE(SVRCONN) HBINT(20)
