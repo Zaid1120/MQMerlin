@@ -97,7 +97,7 @@ MQMerlin is designed to aid users in early issue identification and resolution b
 <!-- USAGE -->
 ## Usage
 
-TBA
+See <a href="https://www.youtube.com/watch?v=ttXFpTWPafs">demo video</a>.
 
 
 <!-- CONTRIBUTING -->
