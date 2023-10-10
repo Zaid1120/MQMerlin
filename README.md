@@ -61,10 +61,9 @@ MQMerlin is designed to aid users in early issue identification and resolution b
 - Installed Java.
 
 ### Downloading the Application
-1. Optional: Use custom IBM MQ image in 'CUSTOM_MQ'.
-2. Go to the MQMerlin GitHub repository at github xxx.
-3. Download the entire repository to your local machine.
-4. Extract the downloaded files to a preferred location on your machine.
+1. Go to the MQMerlin GitHub repository at github xxx.
+2. Download the entire repository to your local machine.
+3. Extract the downloaded files to a preferred location on your machine.
 
 ### Frontend Setup (Unity)
 1. Navigate to the folder containing the built Unity app within the downloaded repository.
@@ -74,6 +73,12 @@ MQMerlin is designed to aid users in early issue identification and resolution b
 1. Navigate to the backend folder within the downloaded repository.
 2. Confirm the installation of Python 3 and Java on your machine by running `python3 --version` and `java -version` in the terminal.
 3. Install the necessary Python packages using pip.
+
+### IBM MQ Setup
+- The MQ instance in question needs to have events, accounting and statistics enabled. Make sure this is set up:
+  - Use custom IBM MQ image located in 'CUSTOM_MQ'.
+  - Follow along with MQSC script and apply to your own MQ instance.
+
 
 ### Running the Backend
 1. Inside the backend folder, start the Flask server using the specified command.
