@@ -100,13 +100,6 @@ MQMerlin is designed to aid users in early issue identification and resolution b
 See <a href="https://www.youtube.com/watch?v=ttXFpTWPafs">demo video</a>.
 
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contribute to MQMerlin by following the setup instructions under "Getting Started" for development purposes.
-
-
-
 <!-- CONTACT -->
 ## MQMerlin Team
 
