@@ -61,9 +61,10 @@ MQMerlin is designed to aid users in early issue identification and resolution b
 - Installed Java.
 
 ### Downloading the Application
-1. Go to the MQMerlin GitHub repository at github xxx.
-2. Download the entire repository to your local machine.
-3. Extract the downloaded files to a preferred location on your machine.
+1. Optional: Use custom IBM MQ image in 'CUSTOM_MQ'.
+2. Go to the MQMerlin GitHub repository at github xxx.
+3. Download the entire repository to your local machine.
+4. Extract the downloaded files to a preferred location on your machine.
 
 ### Frontend Setup (Unity)
 1. Navigate to the folder containing the built Unity app within the downloaded repository.
