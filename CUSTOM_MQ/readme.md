@@ -1,13 +1,11 @@
 # Custom IBM MQ
-This is an example of how to customise an IBM MQ container by changing configuration via '20-config.mqsc'
+This is an example of how to customise an IBM MQ container for monitoring by MQMerlin, changing configuration via '20-config.mqsc'
 
 ### Build
 `docker build -t my-mq .`
 
 ### Default Configuration
-The default options have been selected to match the MQ Docker container development configuration.
-
-This means that you can run a queue manager using that Docker environment and connect to it. This script will run the container on a Linux system.
+The standard way to build an IBM MQ image.
 
 docker run --env LICENSE=accept --env MQ_QMGR_NAME=QM1 --publish 1414:1414 --publish 9443:9443 --detach --name QM1 my-mq
 
@@ -19,15 +17,8 @@ ibm.mq.connName=localhost(1414)
 ibm.mq.user=admin
 ibm.mq.password=passw0rd
 
+Which should be entered into MQMerlin's login page.
+
+
 ### Extra configuration
-Defined in the '20-config.mqsc' file
-
-```
-* Define custom queues
-DEFINE QLOCAL('ORDER.REQUEST') REPLACE
-DEFINE QLOCAL('ORDER.RESPONSE') REPLACE
-```
-
-### Mq Web console
-Browse to the address
-https://localhost:9443/ibmmq/console
+Defined in the '20-config.mqsc' file. Allows for events, accounting and statistics messages to be picked up by MQMerlin.
