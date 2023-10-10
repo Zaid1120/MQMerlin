@@ -1,9 +1,4 @@
 # MQMerlin
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -131,13 +126,6 @@ Distributed under the Apache 2.0 License. See `LICENSE` for more information.
 
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/MQMerlin/mqmerlin.svg?style=for-the-badge
-[contributors-url]: https://github.com/Zaid1120/MQMerlin#mqmerlin-team
-[forks-shield]: https://img.shields.io/github/forks/MQMerlin/mqmerlin.svg?style=for-the-badge
-[forks-url]: https://github.com/MQMerlin/MQMerlin/network/members
-[stars-shield]: https://img.shields.io/github/stars/MQMerlin/mqmerlin.svg?style=for-the-badge
 [stars-url]: https://github.com/MQMerlin/MQMerlin/stargazers
 [issues-shield]: https://img.shields.io/github/issues/MQMerlin/mqmerlin.svg?style=for-the-badge
 [issues-url]: https://github.com/MQMerlin/MQMerlin/issues
