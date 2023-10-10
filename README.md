@@ -19,7 +19,7 @@
     <br />
     <br />
     <a href="https://www.youtube.com/watch?v=ttXFpTWPafs">Demo Video</a>
-    ·
+    
   
   </p>
 </p>
@@ -134,7 +134,7 @@ Distributed under the Apache 2.0 License. See `LICENSE` for more information.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/MQMerlin/mqmerlin.svg?style=for-the-badge
-[contributors-url]: https://github.com/MQMerlin/MQMerlin/graphs/contributors
+[contributors-url]: https://github.com/Zaid1120/MQMerlin#mqmerlin-team
 [forks-shield]: https://img.shields.io/github/forks/MQMerlin/mqmerlin.svg?style=for-the-badge
 [forks-url]: https://github.com/MQMerlin/MQMerlin/network/members
 [stars-shield]: https://img.shields.io/github/stars/MQMerlin/mqmerlin.svg?style=for-the-badge
@@ -142,4 +142,4 @@ Distributed under the Apache 2.0 License. See `LICENSE` for more information.
 [issues-shield]: https://img.shields.io/github/issues/MQMerlin/mqmerlin.svg?style=for-the-badge
 [issues-url]: https://github.com/MQMerlin/MQMerlin/issues
 [license-shield]: https://img.shields.io/github/license/MQMerlin/mqmerlin.svg?style=for-the-badge
-[license-url]: https://github.com/MQMerlin/MQMerlin/blob/master/LICENSE.txt
+[license-url]: https://github.com/Zaid1120/MQMerlin/blob/main/LICENSE
