@@ -61,15 +61,8 @@ MQMerlin is designed to aid users in early issue identification and resolution b
 - Installed Java.
 
 ### Downloading the Application
-1. Go to the MQMerlin GitHub repository at github.
-2. Download a release.
-OR
-2. Download the entire repository to your local machine.
-3. Extract the downloaded files to a preferred location on your machine.
-
-### Frontend Setup (Unity)
-1. Navigate to the folder containing the built Unity app within the downloaded repository.
-2. Run the version of the app corresponding to your OS (e.g., Windows, MacOS, Linux).
+1. Go to the MQMerlin GitHub repository.
+2. Download a release corresponding to your OS (Windows, macOS).
 
 ### Backend Setup
 1. Navigate to the backend folder within the downloaded repository.
