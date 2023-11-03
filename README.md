@@ -7,8 +7,6 @@
     <img src="mqmerlin-logo.png" alt="Logo" width="300">
   </a>
 
-  <h3 align="center">MQMerlin</h3>
-
   <p align="center">
     MQMerlin is a user-friendly tool aimed at simplifying the monitoring and troubleshooting of IBM MQ systems.
     <br />
