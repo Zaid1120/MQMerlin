@@ -61,7 +61,9 @@ MQMerlin is designed to aid users in early issue identification and resolution b
 - Installed Java.
 
 ### Downloading the Application
-1. Go to the MQMerlin GitHub repository at github xxx.
+1. Go to the MQMerlin GitHub repository at github.
+2. Download a release.
+OR
 2. Download the entire repository to your local machine.
 3. Extract the downloaded files to a preferred location on your machine.
 
