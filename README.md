@@ -42,7 +42,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-MQMerlin is designed to aid users in early issue identification and resolution by displaying crucial system information in an easily comprehensible manner. A standout feature is its specialised AI chatbot that addresses user queries regarding IBM MQ and offers troubleshooting advice for identified issues. Based on modern language learning models, this chatbot has shown promise for future enhancements through rigorous testing.
+MQMerlin is designed to aid IBM MQ users in early issue identification and resolution by displaying crucial system information in an easily comprehensible manner. A standout feature is its specialised AI chatbot that addresses user queries regarding IBM MQ and offers troubleshooting advice for identified issues. Based on modern language learning models, this chatbot has shown promise for future enhancements through rigorous testing.
 
 
 
