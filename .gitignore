@@ -77,3 +77,4 @@ MQ_API_BACKEND/*/__pycache__/
 logs/*
 config/*
 java/logs/*
+.DS_Store
