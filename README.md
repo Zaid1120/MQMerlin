@@ -72,6 +72,7 @@ MQMerlin is designed to aid IBM MQ users in early issue identification and resol
 1. Inside the backend folder, start the Flask server using the specified command.
 2. The Flask server will start and listen on port 5000 by default.
 3. Navigate to the ChatBot module folder within the backend folder and replace the APIKEY field with your own OpenAI API key.
+4. View [Backend](https://github.com/Fergus2299/ibm-mq-listener).
 
 ### Running MQMerlin
 1. With the backend running, launch the Unity app.
