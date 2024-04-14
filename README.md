@@ -1,9 +1,8 @@
 # MQMerlin
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/MQMerlin/MQMerlin/">
+  <a href="https://github.com/Zaid1120/MQMerlin/">
     <img src="mqmerlin-logo.png" alt="Logo" width="300">
   </a>
 
